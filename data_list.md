@@ -1,6 +1,10 @@
-#List for public data on Eddy
+# List for public data on Eddy
 
-##path: /data/data_pub
+## Path: /data/data_pub
+
+## Rules:
+- DON'T delete or rewrite the data created by others
+- Describe clearly the data file you make
 
 
 
