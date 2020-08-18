@@ -22,4 +22,23 @@ A small computer cluster served for the Ocean Circulation group
 `172.16.10.133:5901`  注：冒号后的“5901”取决于你刚才运行vncserver时系统提示的数字“:N”，应为5900+N。如提示为":3"，则输入地址时，冒号后为"5903"。
 然后在提示界面点击“continue”后，输入第一次运行vncserver时设置的密码（不是你的账户密码），即可打开虚拟桌面。虚拟桌面一般为Redhat linux系统。
 
-4. 在虚拟桌面空白处点击右键，然后在弹出菜单里点击“open terminal”即可在虚拟桌面中打开一个终端。在打开的终端内输入`matlab &`，即可打开matlab的界面。
+4. 在虚拟桌面空白处点击右键，然后在弹出菜单里点击“open terminal”即可在虚拟桌面中打开一个终端。
+
+在打开的终端内输入`matlab &`，即可打开matlab的界面。
+
+注：第一次运行matlab前，需要在根目录下的.bashrc中添加matlab的目录。具体操作（只需第一次打开Matlab前操作，以后可以直接打开。）：
+  (1)右键点击桌面空白处，在弹出菜单里点击“open terminal”
+  
+  (2)在弹出的终端中输入`vi .bashrc`打开.bashrc这个文件
+  
+  (3)用方向键控制将光标移动至一个空白行，然后按"i"进入编辑模式，输入
+  
+  `export PATH=/usr/local/MATLAB/R2017a/bin:$PATH`，然后按 ECS 退出编辑模式。
+  
+  然后输入   `:wq`  退出编辑界面。
+  
+  在退出界面后执行   `source .bashrc`。
+  
+  (4) 现在在终端内输入`matlab &`应该可以正常打开matlab界面。
+  
+
