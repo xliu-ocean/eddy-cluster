@@ -5,7 +5,7 @@ A small computer cluster served for the Ocean Circulation group
 
 0. 需要用到的软件: (1) VNC viewer ([下载地址](https://www.realvnc.com/en/connect/download/viewer/windows/)); (2) 终端软件（如putty等,[putty下载地址](https://assets.ctfassets.net/0lvk5dbamxpi/4dkKbFS254RifqqGgOxXal/67819b284d7cf0c98e56c63bacaae320/putty-0.73-installer.msi)）
 
-1. 第一次运行VNC viewer，请先用你的账号登陆到 EDDY 集群。比如，你可以按照集群说明的方法，在Windows下利用putty登录到集群，或者在Linux/MacOS系统利用终端输入ssh username@172.16.10.133登录。
+1. 第一次运行VNC viewer，请先用你的账号登陆到 EDDY 集群。比如，你可以按照[集群说明](https://github.com/rayliuxh/eddy-cluster/raw/master/manual_cluster_old.pdf)的方法，在Windows下利用putty登录到集群，或者在Linux/MacOS系统利用终端输入ssh username@172.16.10.133登录。
 
 2. 登录后，在命令行输入
 `vncserver -geometry 1920x1080` 注：1920x1080是你将要开启的虚拟桌面的分辨率大小，请根据自己的显示器分辨率来修改其中的数值。
