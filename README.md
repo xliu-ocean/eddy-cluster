@@ -10,8 +10,11 @@ A small computer cluster served for the Ocean Circulation group
 2. 登录后，在命令行输入
 `vncserver -geometry 1920x1080` 注：1920x1080是你将要开启的虚拟桌面的分辨率大小，请根据自己的显示器分辨率来修改其中的数值。
 上述命令执行后，会提示
+
 `Starting applications specified in /data/home/username/.vnc/xstartup`
+
 `Log file is /data/home/username/.vnc/node100:1.log`
+
 则说明已经开启一个远程虚拟桌面，桌面的序号为:1 (请记下这个数字，下面会用到)。
 注：如果第一次运行，可能需要输入密码，这个密码可以按照自己的喜好设置并记住即可。
 
